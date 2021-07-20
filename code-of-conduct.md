@@ -13,7 +13,7 @@
 
 過去の履歴も参照できます。
 
-- https://github.com/data-visualization-manabiba/guidance/code-of-conduct.md
+- https://github.com/data-visualization-manabiba/guidance/blob/main/code-of-conduct.md
 
 ### お問い合わせ先
 
