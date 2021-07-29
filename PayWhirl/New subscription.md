@@ -3,7 +3,7 @@
 
 ## Email subject
 
-[{{ shop_name }}] You have a new subscription
+[{{ shop_name }}] 定期購入がはじまります
 
 ## Email body (HTML)
 
@@ -65,15 +65,15 @@
               <a href="{{ shop_link }}">{{ shop_name }}</a>
             </h1>
           </td>
-          <td class="subscription-id__cell">Subscription #{{ subscription_id }}</td>
+          <td class="subscription-id__cell">定期購入 #{{ subscription_id }}</td>
         </tr></table>
       </td></tr></table>
     </center></td></tr></table>
 
     <table class="row content"><tr><td class="content__cell"><center>
       <table class="container"><tr><td>
-        <h2>Thank you for your purchase!</h2>
-        <p> You've started a new subscription in {{ shop_name }}. You can manage it on your account page. </p>
+        <h2>定期購入ありがとうございます。</h2>
+        <p>{{ shop_name }} にて、定期購入がはじまりました。アカウントページで管理できます。</p>
         <table class="row actions"><tr><td class="actions__cell">
           <table class="button main-action-cell"><tr>
             <table class="row actions">
@@ -83,10 +83,10 @@
               <tr>
                 <td class="actions__cell">
                   <table class="button main-action-cell"><tr><td class="button__cell" align="center" bgcolor="#1990C6">
-                    <a href="{{ subscription_link }}" class="button__text">Manage your subscription</a>
+                    <a href="{{ subscription_link }}" class="button__text">定期購入の管理</a>
                   </td></tr></table>
                   <table class="link secondary-action-cell"><tr>
-                    <td class="link__cell">or <a href="{{ shop_link }}">Visit our store</a></td>
+                    <td class="link__cell"> もしくは <a href="{{ shop_link }}">サイトへアクセス</a></td>
                   </tr></table>
                 </td>
               </tr>
@@ -98,7 +98,7 @@
     <table class="row footer"><tr><td class="footer__cell"><center>
       <table class="container"><tr><td>
         <p class="disclaimer__subtext">
-          If you have any questions, reply to this email or contact us at
+          ご不明な点がございましたら、このメールにご返信いただくか、下記までご連絡ください。
           <a href="mailto:{{ contact_email }}">{{ contact_email }}</a></p>
       </td></tr></table>
     </center></td></tr></table>
