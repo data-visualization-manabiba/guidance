@@ -3,7 +3,7 @@
 
 ## Email subject
 
-[{{ shop_name }}] 定期購入がはじまります
+【{{ shop_name }}】定期購読がはじまります
 
 ## Email body (HTML)
 
@@ -62,18 +62,19 @@
         <table class="row"><tr>
           <td class="shop-name__cell">
             <h1 class="shop-name__text">
-              <a href="{{ shop_link }}">{{ shop_name }}</a>
+              <a href="{{ shop_link }}">データ可視化の学び場</a>
             </h1>
           </td>
-          <td class="subscription-id__cell">定期購入 #{{ subscription_id }}</td>
+          <td class="subscription-id__cell">定期購読 #{{ subscription_id }}</td>
         </tr></table>
       </td></tr></table>
     </center></td></tr></table>
 
     <table class="row content"><tr><td class="content__cell"><center>
       <table class="container"><tr><td>
-        <h2>定期購入ありがとうございます。</h2>
-        <p>{{ shop_name }} にて、定期購入がはじまりました。アカウントページで管理できます。</p>
+        <h2>ご参加ありがとうございます。</h2>
+        <p>以下のリンクより「データ可視化の学び場」Slackへご参加ください。</p>
+        <p><a href="https://join.slack.com/t/data-viz-manabiba/shared_invite/zt-t7ag0d4i-j7hwGiVBmU2npufHPNyeYg" target="_blank">「データ可視化の学び場」</a></p>
         <table class="row actions"><tr><td class="actions__cell">
           <table class="button main-action-cell"><tr>
             <table class="row actions">
@@ -83,7 +84,7 @@
               <tr>
                 <td class="actions__cell">
                   <table class="button main-action-cell"><tr><td class="button__cell" align="center" bgcolor="#1990C6">
-                    <a href="{{ subscription_link }}" class="button__text">定期購入の管理</a>
+                    <a href="{{ subscription_link }}" class="button__text">定期購読の管理</a>
                   </td></tr></table>
                   <table class="link secondary-action-cell"><tr>
                     <td class="link__cell"> もしくは <a href="{{ shop_link }}">サイトへアクセス</a></td>

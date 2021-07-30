@@ -3,7 +3,7 @@
 
 ## Email subject
 
-[{{ shop_name }}] 定期購入を再開しました
+【{{ shop_name }}】定期購読を再開しました
 
 ## Email body (HTML)
 
@@ -65,14 +65,14 @@
               <a href="{{ shop_link }}">{{ shop_name }}</a>
             </h1>
           </td>
-          <td class="subscription-id__cell">定期購入 #{{ subscription_id }}</td>
+          <td class="subscription-id__cell">定期購読 #{{ subscription_id }}</td>
         </tr></table>
       </td></tr></table>
     </center></td></tr></table>
 
     <table class="row content"><tr><td class="content__cell"><center>
       <table class="container"><tr><td>
-        <h2>定期購入を再開しました</h2>
+        <h2>定期購読を再開しました</h2>
         <table class="row actions"><tr><td class="actions__cell">
           <table class="button main-action-cell"><tr>
             <table class="row actions">
@@ -82,7 +82,7 @@
               <tr>
                 <td class="actions__cell">
                   <table class="button main-action-cell"><tr><td class="button__cell" align="center" bgcolor="#1990C6">
-                    <a href="{{ subscription_link }}" class="button__text">定期購入の管理</a>
+                    <a href="{{ subscription_link }}" class="button__text">定期購読の管理</a>
                   </td></tr></table>
                   <table class="link secondary-action-cell"><tr>
                     <td class="link__cell"> もしくは <a href="{{ shop_link }}">サイトへアクセス</a></td>

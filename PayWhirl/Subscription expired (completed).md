@@ -3,7 +3,7 @@
 
 ## Email subject
 
-[{{ shop_name }}] 定期購入期間が終了しました
+【{{ shop_name }}】定期購読期間が終了しました
 
 ## Email body (HTML)
 
@@ -73,6 +73,7 @@
     <table class="row content"><tr><td class="content__cell"><center>
       <table class="container"><tr><td>
         <h2>定期購入期間が終了しました</h2>
+        <p>これまでのご参加、誠にありがとうございました！またタイミングが許せば、戻ってきてくださいね。</p>
         <table class="row actions"><tr><td class="actions__cell">
           <table class="button main-action-cell"><tr>
             <table class="row actions">
@@ -82,7 +83,7 @@
               <tr>
                 <td class="actions__cell">
                   <table class="button main-action-cell"><tr><td class="button__cell" align="center" bgcolor="#1990C6">
-                    <a href="{{ subscription_link }}" class="button__text">定期購入の管理</a>
+                    <a href="{{ subscription_link }}" class="button__text">定期購読の管理</a>
                   </td></tr></table>
                   <table class="link secondary-action-cell"><tr>
                     <td class="link__cell"> もしくは <a href="{{ shop_link }}">サイトへアクセス</a></td>

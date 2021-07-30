@@ -3,7 +3,7 @@
 
 ## Email subject
 
-[{{ shop_name }}] お支払いが上手くいきませんでした（再試行されます）
+【{{ shop_name }}】お支払いが上手くいきませんでした（再試行されます）
 
 ## Email body (HTML)
 
@@ -83,7 +83,7 @@
               <tr>
                 <td class="actions__cell">
                   <table class="button main-action-cell"><tr><td class="button__cell" align="center" bgcolor="#1990C6">
-                    <a href="{{ subscription_link }}" class="button__text">定期購入の管理</a>
+                    <a href="{{ subscription_link }}" class="button__text">定期購読の管理</a>
                   </td></tr></table>
                   <table class="link secondary-action-cell"><tr>
                     <td class="link__cell"> もしくは <a href="{{ shop_link }}">サイトへアクセス</a></td>
